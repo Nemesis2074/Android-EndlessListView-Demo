@@ -8,7 +8,7 @@ import net.nemesis2074.endless.demo.adapter.ItemsArrayAdapter;
 import net.nemesis2074.endless.demo.data.ConnectionSimulator;
 import net.nemesis2074.endless.demo.data.Item;
 
-public class DemoListActivity extends EndlessListActivity<Item, Bundle> {
+public class DemoListActivity extends EndlessListActivity<Item> {
 	
 	private static final int NUMBER_OF_ITEMS = 10;
 	
@@ -32,7 +32,7 @@ public class DemoListActivity extends EndlessListActivity<Item, Bundle> {
 	}
 
 	@Override
-	public void loadMoreItems(int totalItems, Bundle extraInfo) {
+	public void loadMoreItems(int totalItems) {
 		LoadItemsTask task = new LoadItemsTask();
 		task.execute(NUMBER_OF_ITEMS, totalItems);
 	}

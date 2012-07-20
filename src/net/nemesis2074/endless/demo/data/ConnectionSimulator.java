@@ -2,11 +2,14 @@ package net.nemesis2074.endless.demo.data;
 
 import java.util.ArrayList;
 
-
+/**
+ * Simula la consulta a cualquier origen de datos: base de datos, servicio web, etc.
+ * 
+ * @author Adair Castillo (Nemesis2074)
+ */
 public class ConnectionSimulator {
 	
 	/**
-	 * Simula la consulta a cualquier origen de datos: base de datos, servicio web, etc.
 	 * Recibe los siguientes parametros (similares a como se utilizan en la sentencia SELECT en SQL):
 	 * 
 	 * <b>numerOfItems</b>: La cantidad de elementos que se desea obtener.

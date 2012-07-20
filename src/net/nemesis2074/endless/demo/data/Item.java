@@ -1,5 +1,10 @@
 package net.nemesis2074.endless.demo.data;
 
+/**
+ * Ejemplo de modelo de datos.
+ * 
+ * @author Adair Castillo (Nemesis2074)
+ */
 public class Item {
 	
 	private String title;

@@ -11,6 +11,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+/**
+ * Ejemplo de ArrayAdapter.
+ * 
+ * @author Adair Castillo (Nemesis2074)
+ */
 public class ItemsArrayAdapter extends ArrayAdapter<Item> {
 
 	public ItemsArrayAdapter(Context context, int textViewResourceId, List<Item> objects) {

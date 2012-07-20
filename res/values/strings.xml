@@ -3,7 +3,7 @@
     <string name="app_name">EndlessListView Demo</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">NemesisListView Demo</string>
+    <string name="title_activity_main">EndlessListView Demo</string>
     <string name="title_activity_demo">Activity Demo</string>
     <string name="title_fragment_demo">Fragment Demo</string>
     <string name="btn_fragment_demo">Fragment Demo</string>
